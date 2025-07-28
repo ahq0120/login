@@ -1,14 +1,14 @@
-# Spring Boot 登入系統
+# Spring Boot登入系統
 
 這是一個基礎的登入系統，使用Spring Boot搭配Thymeleaf、Spring Security、JPA和MySQL資料庫實作，支援用戶註冊與登入功能。
 
 ## 功能簡介
 
-- 使用者註冊帳號（含帳號、密碼與 email）
+- 使用者註冊帳號（含帳號、密碼與email）
 - 使用者登入驗證
 - 登入成功後顯示歡迎頁面
-- 密碼加密儲存（使用 Spring Security 提供的加密機制）
-- 表單具備 CSRF 保護
+- 密碼加密儲存（使用Spring Security提供的加密機制）
+- CSRF防護
 
 ## 技術架構
 
@@ -55,7 +55,7 @@ login
 
 ## 設定說明
 
-在 `application.properties` 填入MySQL資料庫資訊：
+在`application.properties`填入MySQL資料庫資訊：
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/資料庫名稱
