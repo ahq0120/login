@@ -19,7 +19,7 @@
 - Thymeleaf
 - MySQL
 
-## 畫面路徑
+## 頁面路徑
 
 - `/register`：用戶註冊頁面
 - `/login`：用戶登入頁面
