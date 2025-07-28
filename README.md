@@ -80,11 +80,10 @@ spring.thymeleaf.cache=false
 
 ## 執行方式
 
-1. 建立資料表（可參考下方 member 資料表結構）
-2. 修改 application.properties 設定資料庫連線資訊
-3. 執行 LoginApplication.java 啟動應用程式
-4. 開啟瀏覽器訪問：
-
+1. 建立資料表（可參考上方member資料表結構）
+2. 修改application.properties設定資料庫連線資訊
+3. 執行LoginApplication.java
+4. 開啟瀏覽器：
    - 註冊頁面：http://localhost:8080/register  
    - 登入頁面：http://localhost:8080/login
 
