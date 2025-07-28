@@ -77,3 +77,15 @@ spring.thymeleaf.cache=false
 | password        | varchar(255) | ✅        |                |        |              | 密碼                       |
 | email           | varchar(100) |          |                |        |              | 可空白                  |
 | created_at      | datetime     |          |                |        |              | 註冊時間                        |
+
+## 執行方式
+
+```bash
+1. 建立資料表（可參考下方 member 資料表結構）
+2. 修改 application.properties 設定資料庫連線資訊
+3. 執行 LoginApplication.java 啟動應用程式
+4. 開啟瀏覽器訪問：
+
+   - 註冊頁面：http://localhost:8080/register  
+   - 登入頁面：http://localhost:8080/login
+```
