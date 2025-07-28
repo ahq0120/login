@@ -86,4 +86,7 @@ spring.thymeleaf.cache=false
 4. 開啟瀏覽器：
    - 註冊頁面：http://localhost:8080/register  
    - 登入頁面：http://localhost:8080/login
+4. 開啟瀏覽器：
+   - 註冊頁面：http://localhost:8080/register  
+   - 登入頁面：http://localhost:8080/login
 
