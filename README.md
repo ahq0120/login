@@ -68,3 +68,12 @@ spring.jpa.show-sql=true
 spring.thymeleaf.cache=false
 ```
 
+## 資料庫：`member` 資料表結構
+
+| 欄位名稱        | Type         | Not Null | Auto Increment | Unique | Primary Key | 補充說明                          |
+|-----------------|--------------|----------|----------------|--------|--------------|-----------------------------------|
+| id              | int          | ✅        | ✅              |        | ✅            |                           |
+| username        | varchar(50)  | ✅        |                | ✅      |              | 使用者帳號                   |
+| password        | varchar(255) | ✅        |                |        |              | 密碼                       |
+| email           | varchar(100) |          |                |        |              | 可空白                  |
+| created_at      | datetime     |          |                |        |              | 註冊時間                        |
