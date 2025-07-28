@@ -68,15 +68,3 @@ spring.jpa.show-sql=true
 spring.thymeleaf.cache=false
 ```
 
-## 執行方式
-
-```bash
-# 1. 建立 MySQL 資料庫與資料表（見下方資料表欄位結構）
-# 2. 設定資料庫連線資訊於 application.properties
-# 3. 編譯與啟動專案
-./mvnw spring-boot:run
-
-# 4. 在瀏覽器中訪問：
-http://localhost:8080/register   # 註冊頁
-http://localhost:8080/login      # 登入頁
-http://localhost:8080/home       # 登入成功後的首頁
