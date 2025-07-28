@@ -1,6 +1,6 @@
 # Spring Boot 登入系統
 
-這是一個基礎的登入系統範例，使用 Spring Boot 搭配 Thymeleaf、Spring Security、JPA 和 MySQL 資料庫實作。支援用戶註冊與登入功能。
+這是一個基礎的登入系統，使用Spring Boot搭配Thymeleaf、Spring Security、JPA和MySQL資料庫實作，支援用戶註冊與登入功能。
 
 ## 功能簡介
 
