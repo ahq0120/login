@@ -27,28 +27,31 @@
 
 ## 專案結構
 
-src
-├── main
-│ ├── java
-│ │ └── com.example.login
-│ │ ├── LoginApplication.java
-│ │ ├── controller
-│ │ │ └── MemberController.java
-│ │ ├── entity
-│ │ │ └── Member.java
-│ │ ├── repository
-│ │ │ └── MemberRepository.java
-│ │ ├── service
-│ │ │ ├── MemberService.java
-│ │ │ └── CustomUserDetailsService.java
-│ │ └── security
-│ │ └── SecurityConfig.java
-│ └── resources
-│ ├── templates
-│ │ ├── register.html
-│ │ ├── login.html
-│ │ └── home.html
-│ └── application.properties
+```plaintext
+login
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.example.login
+│       │       ├── LoginApplication.java
+│       │       ├── controller
+│       │       │   └── MemberController.java
+│       │       ├── entity
+│       │       │   └── Member.java
+│       │       ├── repository
+│       │       │   └── MemberRepository.java
+│       │       ├── service
+│       │       │   ├── MemberService.java
+│       │       │   └── CustomUserDetailsService.java
+│       │       └── security
+│       │           └── SecurityConfig.java
+│       └── resources
+│           ├── templates
+│           │   ├── register.html
+│           │   ├── login.html
+│           │   └── home.html
+│           └── application.properties
+```
 
 ## 設定說明
 
