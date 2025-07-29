@@ -86,3 +86,20 @@ spring.thymeleaf.cache=false
 4. 開啟瀏覽器：
    - 註冊頁面：http://localhost:8080/register  
    - 登入頁面：http://localhost:8080/login
+
+## 執行畫面
+
+### 註冊畫面
+![register](https://github.com/ahq0120/image/blob/main/register_form.png?raw=true)
+
+### 登入畫面
+![login](https://github.com/ahq0120/image/blob/main/login_form.png?raw=true)
+
+### 登入成功
+![success](https://github.com/ahq0120/image/blob/main/login_success.png?raw=true)
+
+### 登入失敗
+![failed](https://github.com/ahq0120/image/blob/main/login_failed.png?raw=true)
+
+### 資料庫中的使用者資料
+![user table](https://github.com/ahq0120/image/blob/main/user_table.png?raw=true)
